@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import ClickMe from './ClickMe';
+import ClickMe from './components/ClickMe';
 
 function App() {
   return (
