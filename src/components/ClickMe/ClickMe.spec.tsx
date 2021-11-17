@@ -20,7 +20,7 @@ describe('Button Counter', () => {
     render(<ClickMe {...clickMeProps} />);
     clickCounterButton();
     await waitFor(() => {
-      expect(captureCounterText()).toBe('Clicked 1 times.');
+      expect(captureCounterText()).toBe('Clicked 1 times!');
     });
   });
 });

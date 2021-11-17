@@ -36,7 +36,7 @@ const ClickMe: React.FC<ClickMeProps> = ({
         }}>
         {label}
       </Button>
-      <Typography>{`Clicked ${count} times.`}</Typography>
+      <Typography>{`Clicked ${count} times!`}</Typography>
     </>
   );
 };

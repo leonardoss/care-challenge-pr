@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders hellow world text 1`] = `
+<div>
+  <div
+    style="padding: 2px;"
+  >
+    <div
+      class="ForwardRef(Box)-root-1 MuiBox-root css-0"
+    >
+      <h4
+        class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+      />
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+      >
+        min: 
+        0.0
+         
+        <sup>
+          °c
+        </sup>
+         | max:
+         
+        0.0
+         
+        <sup>
+          °c
+        </sup>
+      </p>
+      <br />
+      <button
+        class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="button"
+      >
+        update temperature
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
