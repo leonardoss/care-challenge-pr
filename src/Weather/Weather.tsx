@@ -20,7 +20,6 @@ const convert = (temp: any) => {
 const Weather = (props: any) => {
   const [data, setData] = useState<{ name: string, main: any }>({ name: '', main: {} });
   const [loading, setLoading] = useState(true);
-  const [updateTemp, setUpdateTemp] = useState(false);
   const city = props.name
 
   useEffect(() => {
@@ -32,9 +31,7 @@ const Weather = (props: any) => {
     });
 
     setLoading(false);
-    setUpdateTemp(false)
-
-  }, [city, updateTemp]);
+  }, [city]);
 
   console.log('##### render Weather');
 
