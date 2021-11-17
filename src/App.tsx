@@ -2,7 +2,6 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import ClickMe from './components/ClickMe';
-import Weather from './Weather/Weather';
 import { Grid } from '@material-ui/core';
 
 function App() {
@@ -18,14 +17,11 @@ function App() {
           justifyContent="center"
           alignItems="center"
           spacing={2}>
-          <Grid item xs={6}>
+          <Grid item xs={12}>
             <ClickMe />
           </Grid>
-          <Grid item xs={6}>
-            <Weather name="berlin" isLoadingText={'loading ...'} />
-          </Grid>
         </Grid>
-      </div >
+      </div>
     </Grid>
   );
 }
